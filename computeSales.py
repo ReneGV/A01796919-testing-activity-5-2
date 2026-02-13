@@ -86,9 +86,6 @@ def print_results(total, elapsed_time):
 
     lines.append("")
     lines.append(separator)
-    lines.append("SALES COMPUTATION RESULTS")
-    lines.append(separator)
-    lines.append("")
     lines.append(f"TOTAL SALES: ${total:,.2f}")
     lines.append("")
     lines.append(f"Execution time: {elapsed_time:.4f} seconds")
@@ -104,7 +101,7 @@ def print_results(total, elapsed_time):
     with open("SalesResults.txt", 'w') as file:
         file.write(output)
 
-    print("\nResults saved to: SalesResults.txt")
+    print("Results saved to: SalesResults.txt")
 
 
 def main():
@@ -112,13 +109,6 @@ def main():
     # Get file names from command line
     catalogue_file = sys.argv[1]
     sales_file = sys.argv[2]
-
-    print("=" * 70)
-    print("SALES COMPUTATION PROGRAM")
-    print("=" * 70)
-    print(f"\nPrice Catalogue: {catalogue_file}")
-    print(f"Sales Records: {sales_file}")
-    print("\nProcessing...\n")
 
     # Start timing
     start_time = time.time()
@@ -133,12 +123,13 @@ def main():
 
     # Compute total
     total, valid_items = compute_sales_total(sales_data, catalogue)
+    print(f"Processed {valid_items} valid items")
 
     # Calculate elapsed time
     elapsed_time = time.time() - start_time
 
     # Display results
-    print_results(total, elapsed_time, len(sales_data), valid_items)
+    print_results(total, elapsed_time)
 
 
 if __name__ == "__main__":
