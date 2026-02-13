@@ -9,6 +9,8 @@ python3 computeSales.py data/TC1/TC1.ProductList.json data/TC1/TC1.Sales.json
 ```
 **Expected Result:** $2,481.86
 
+![Test Case 1 Result](data/test-case-1-result.png)
+
 ---
 
 ### Test Case 2 - Large Quantities with Negative Values
@@ -17,6 +19,8 @@ python3 computeSales.py data/TC1/TC1.ProductList.json data/TC2/TC2.Sales.json
 ```
 **Expected Result:** $166,568.23
 
+![Test Case 2 Result](data/test-case-2-result.png)
+
 ---
 
 ### Test Case 3 - Invalid Products
@@ -24,6 +28,8 @@ python3 computeSales.py data/TC1/TC1.ProductList.json data/TC2/TC2.Sales.json
 python3 computeSales.py data/TC1/TC1.ProductList.json data/TC3/TC3.Sales.json
 ```
 **Expected Result:** $165,235.37
+
+![Test Case 3 Result](data/test-case-3-result.png)
 
 ---
 
