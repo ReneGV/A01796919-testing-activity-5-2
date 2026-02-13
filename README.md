@@ -31,10 +31,23 @@ python3 computeSales.py data/TC1/TC1.ProductList.json data/TC3/TC3.Sales.json
 
 Results are displayed on screen and saved to `SalesResults.txt`
 
-## PEP-8 Compliance Check
+## Code Quality Checks
 
-To verify code quality with flake8:
+### Flake8 (PEP-8 Compliance)
 ```bash
 source venv/bin/activate
 flake8 computeSales.py
 ```
+
+![Flake8 Results](flake8-run.png)
+
+**Status:** ✅ PASS (No issues found)
+
+### Pylint (Code Analysis)
+```bash
+pylint computeSales.py
+```
+
+![Pylint Results](pylint-run.png)
+
+**Score:** 10.00/10 ⭐
