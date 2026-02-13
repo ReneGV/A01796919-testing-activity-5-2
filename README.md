@@ -1,5 +1,3 @@
-# computeSales.py - Usage Instructions
-
 <!-- Badge will work after first workflow run -->
 [![Python PEP-8 Check](https://github.com/ReneGV/A01796919-testing-activity-5-2/actions/workflows/python-lint.yml/badge.svg?branch=main)](https://github.com/ReneGV/A01796919-testing-activity-5-2/actions/workflows/python-lint.yml)
 

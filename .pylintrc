@@ -1,0 +1,35 @@
+[MASTER]
+# Use multiple processes to speed up Pylint
+jobs=1
+
+[MESSAGES CONTROL]
+# Disable specific warnings
+disable=C0103,  # invalid-name (allows short variable names like 'f', 'i', etc.)
+        C0114,  # missing-module-docstring
+        C0115,  # missing-class-docstring
+        C0116,  # missing-function-docstring
+        W1514   # unspecified-encoding (Python 3 defaults to UTF-8)
+
+[FORMAT]
+# Maximum number of characters on a single line
+max-line-length=88
+
+# String used for indentation
+indent-string='    '
+
+[BASIC]
+# Good variable names which should always be accepted
+good-names=i,j,k,ex,Run,_,f,e
+
+# Regular expression for variable names
+variable-rgx=[a-z_][a-z0-9_]{0,30}$
+
+# Regular expression for function names
+function-rgx=[a-z_][a-z0-9_]{2,30}$
+
+[DESIGN]
+# Maximum number of arguments for function
+max-args=5
+
+# Minimum number of public methods for a class
+min-public-methods=0
