@@ -1,6 +1,7 @@
 # computeSales.py - Usage Instructions
 
-![CI](https://github.com/YOUR_USERNAME/YOUR_REPO/workflows/CI%20-%20Lint%20and%20Test/badge.svg)
+<!-- Badge will work after first workflow run -->
+[![CI - Lint and Test](https://github.com/ReneGV/A01796919-testing-activity-5-2/actions/workflows/ci.yml/badge.svg)](https://github.com/ReneGV/A01796919-testing-activity-5-2/actions)
 
 ## How to Run the Program
 
