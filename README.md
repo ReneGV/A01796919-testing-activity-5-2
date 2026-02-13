@@ -1,5 +1,7 @@
 # computeSales.py - Usage Instructions
 
+![CI](https://github.com/YOUR_USERNAME/YOUR_REPO/workflows/CI%20-%20Lint%20and%20Test/badge.svg)
+
 ## How to Run the Program
 
 ### Test Case 1 - Standard Sales Data
